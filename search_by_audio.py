@@ -21,8 +21,8 @@ def record_audio():
 def send_to_acr_cloud(audio):
     config = {
         "host": "identify-us-west-2.acrcloud.com",
-        "access_key": "dccaf0c06d15eb512eab05a5f9f5420a",
-        "access_secret": "cEXwp8kHkjROtLkKWAmDYmJMJgARP9FCylZMOFy4",
+        "access_key": "32e8b4a17a8e54e6dae651348bca2759",
+        "access_secret": "roU98fiFDzlWEWntK4LR9ccmM3QAAf6ywoqu9J6D",
         "timeout": 10
     }
     re = ACRCloudRecognizer(config)
